@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Fortnite is da best
+title: "Fortnite is da best"
 email: andon.morgan@warriorilife.net
 description: >- # this means to ignore newlines until "baseurl:"
   I'm porbably better than you at Fortnite.
@@ -24,6 +24,8 @@ github_username:  UrCousinErnesto
 
 disqus:
   shortname: urcousinernestos-jekyll-site
+
+timezone: America/Los_Angeles
 
 # Build settings
 markdown: kramdown
