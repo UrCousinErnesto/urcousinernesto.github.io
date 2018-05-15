@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>4.10</title>
+</head>
+
+<body>
+<script>
+   var time = new Date();
+   function show(id) {
+     if (id == 1) {
+        document.getElementById('Time').value=time;
+     }
+
+     
+   }
+</script>
+
+</head>
+<body>
+
+Time: <input type='text' id="Time" value=""> 
+    <button id='1' onClick="show(this.id)">Click for time</button>
+     
+
+</body>
+</html>

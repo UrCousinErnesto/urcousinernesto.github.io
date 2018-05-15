@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>8.7</title>
+</head>
+
+<body>
+<script type="text/javascript">
+function isLeapYear(year) {
+return (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);
+}
+var y = prompt("Input a Year : ");
+alert(isLeapYear(y));
+
+// loop 1900 to 2000
+document.write(isLeapYear(i) + "<br>");
+
+</script>
+</body>
+</html>

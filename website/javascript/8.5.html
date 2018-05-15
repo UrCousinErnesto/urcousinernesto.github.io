@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>8.5</title>
+</head>
+
+<body>
+<script type="text/javascript">
+
+var x = 0
+while (x < 21){
+	var number = Math.floor(Math.random()*6);
+	switch(number) {
+		case 0:
+			document.write("1<br>");
+			break;
+		case 1:
+			document.write("2<br>");
+			break;
+		case 2:
+			document.write("3<br>");
+			break;
+		case 3:
+			document.write("4<br>");
+			break;
+		case 4:
+			document.write("5<br>");
+			break;
+		case 5:
+			document.write("6<br>");
+			break;
+	}
+	x = x + 1;
+	if(x == 21){
+		break;
+	}
+	continue;
+}
+var y = 0;
+var count1 = 0;
+var count2 = 0;
+var count3 = 0;
+var count4 = 0;
+var count5 = 0;
+var count6 = 0;	
+while(y < 100 ){
+	var number = Math.floor(Math.random()*6);
+	if(number == 0) {
+		count1++;
+		y++;
+	}
+	if(number == 1) {
+		count2++;
+		y++;
+	}
+	if(number == 2) {
+		count3++;
+		y++;
+	}
+	if(number == 3) {
+		count4++;
+		y++;
+	}
+	if(number == 4) {
+		count5++;
+		y++;
+	}
+	if(number == 5) {
+		count6++;
+		y++;
+	}
+	continue;
+}
+document.write("1 appeared " + count1 + " times <br>");
+document.write("2 appeared " + count2 + " times <br>");
+document.write("3 appeared " + count3 + " times <br>");
+document.write("4 appeared " + count4 + " times <br>");
+document.write("5 appeared " + count5 + " times <br>");
+document.write("6 appeared " + count6 + " times <br>");	
+
+</script>
+</body>
+</html>

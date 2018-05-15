@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>6.6</title>
+</head>
+
+<body>
+<script>
+var cheese=1
+while(cheese==1) {
+	var name = prompt("Fahrenheit Temperature:", "");
+	var currency = name - 32;
+	var temp = currency * .5556;
+	document.write(" <br> Celsius Temperature: ", temp);
+	var choose = confirm("Wanna calculate again?");
+	if(choose==false){
+		var cheese=2
+		}
+	
+}
+	
+</script>
+</body>
+</html>
