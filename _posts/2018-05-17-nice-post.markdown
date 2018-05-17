@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Nice Post"
+date:   2018-05-07 14:19:49 -0700
+categories: uncategorized
+author: Luke Oh
+---
+You're pretty chill but you play baseball so that takes away major clout points. You also wear glasses so, NERD!
